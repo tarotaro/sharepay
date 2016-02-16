@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B466A34FF408DB192A8C5A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9D825E99B1E846283A3AAA /* libPods.a */; };
+		55A7F4A51C735AF200882A08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7F4A41C735AF200882A08 /* main.m */; };
+		55A7F4A81C735AF200882A08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7F4A71C735AF200882A08 /* AppDelegate.m */; };
+		55A7F4AB1C735AF200882A08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7F4AA1C735AF200882A08 /* ViewController.m */; };
+		55A7F4AE1C735AF200882A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A7F4AC1C735AF200882A08 /* Main.storyboard */; };
+		55A7F4B11C735AF200882A08 /* sharepay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55A7F4AF1C735AF200882A08 /* sharepay.xcdatamodeld */; };
+		55A7F4B31C735AF200882A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A7F4B21C735AF200882A08 /* Assets.xcassets */; };
+		55A7F4B61C735AF200882A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A7F4B41C735AF200882A08 /* LaunchScreen.storyboard */; };
+		55A7F4C11C735AF200882A08 /* sharepayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7F4C01C735AF200882A08 /* sharepayTests.m */; };
+		55A7F4CC1C735AF200882A08 /* sharepayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7F4CB1C735AF200882A08 /* sharepayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A7F4BD1C735AF200882A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A7F4981C735AF100882A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A7F49F1C735AF100882A08;
+			remoteInfo = sharepay;
+		};
+		55A7F4C81C735AF200882A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A7F4981C735AF100882A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A7F49F1C735AF100882A08;
+			remoteInfo = sharepay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55A7F4A01C735AF200882A08 /* sharepay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sharepay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A7F4A41C735AF200882A08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55A7F4A61C735AF200882A08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55A7F4A71C735AF200882A08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55A7F4A91C735AF200882A08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55A7F4AA1C735AF200882A08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55A7F4AD1C735AF200882A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A7F4B01C735AF200882A08 /* sharepay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sharepay.xcdatamodel; sourceTree = "<group>"; };
+		55A7F4B21C735AF200882A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55A7F4B51C735AF200882A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55A7F4B71C735AF200882A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A7F4BC1C735AF200882A08 /* sharepayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharepayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A7F4C01C735AF200882A08 /* sharepayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sharepayTests.m; sourceTree = "<group>"; };
+		55A7F4C21C735AF200882A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A7F4C71C735AF200882A08 /* sharepayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharepayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A7F4CB1C735AF200882A08 /* sharepayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sharepayUITests.m; sourceTree = "<group>"; };
+		55A7F4CD1C735AF200882A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBF0BB29B48FA92B9A39E7D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DB9D825E99B1E846283A3AAA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CD4313D16D673B2CDDD8CD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A7F49D1C735AF100882A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B466A34FF408DB192A8C5A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F4B91C735AF200882A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F4C41C735AF200882A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A7F4971C735AF100882A08 = {
+			isa = PBXGroup;
+			children = (
+				55A7F4A21C735AF200882A08 /* sharepay */,
+				55A7F4BF1C735AF200882A08 /* sharepayTests */,
+				55A7F4CA1C735AF200882A08 /* sharepayUITests */,
+				55A7F4A11C735AF200882A08 /* Products */,
+				8BB4FB41A31AA588409D9432 /* Pods */,
+				E15B4883ED5DADE1C417EDFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55A7F4A11C735AF200882A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A7F4A01C735AF200882A08 /* sharepay.app */,
+				55A7F4BC1C735AF200882A08 /* sharepayTests.xctest */,
+				55A7F4C71C735AF200882A08 /* sharepayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A7F4A21C735AF200882A08 /* sharepay */ = {
+			isa = PBXGroup;
+			children = (
+				55A7F4A61C735AF200882A08 /* AppDelegate.h */,
+				55A7F4A71C735AF200882A08 /* AppDelegate.m */,
+				55A7F4A91C735AF200882A08 /* ViewController.h */,
+				55A7F4AA1C735AF200882A08 /* ViewController.m */,
+				55A7F4AC1C735AF200882A08 /* Main.storyboard */,
+				55A7F4B21C735AF200882A08 /* Assets.xcassets */,
+				55A7F4B41C735AF200882A08 /* LaunchScreen.storyboard */,
+				55A7F4B71C735AF200882A08 /* Info.plist */,
+				55A7F4AF1C735AF200882A08 /* sharepay.xcdatamodeld */,
+				55A7F4A31C735AF200882A08 /* Supporting Files */,
+			);
+			path = sharepay;
+			sourceTree = "<group>";
+		};
+		55A7F4A31C735AF200882A08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A7F4A41C735AF200882A08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55A7F4BF1C735AF200882A08 /* sharepayTests */ = {
+			isa = PBXGroup;
+			children = (
+				55A7F4C01C735AF200882A08 /* sharepayTests.m */,
+				55A7F4C21C735AF200882A08 /* Info.plist */,
+			);
+			path = sharepayTests;
+			sourceTree = "<group>";
+		};
+		55A7F4CA1C735AF200882A08 /* sharepayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55A7F4CB1C735AF200882A08 /* sharepayUITests.m */,
+				55A7F4CD1C735AF200882A08 /* Info.plist */,
+			);
+			path = sharepayUITests;
+			sourceTree = "<group>";
+		};
+		8BB4FB41A31AA588409D9432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD4313D16D673B2CDDD8CD /* Pods.debug.xcconfig */,
+				8FBF0BB29B48FA92B9A39E7D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E15B4883ED5DADE1C417EDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D825E99B1E846283A3AAA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A7F49F1C735AF100882A08 /* sharepay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A7F4D01C735AF200882A08 /* Build configuration list for PBXNativeTarget "sharepay" */;
+			buildPhases = (
+				8AE4DED321C64C78E3CCA39A /* Check Pods Manifest.lock */,
+				55A7F49C1C735AF100882A08 /* Sources */,
+				55A7F49D1C735AF100882A08 /* Frameworks */,
+				55A7F49E1C735AF100882A08 /* Resources */,
+				DA1AA31730CC776EB2B457DC /* Embed Pods Frameworks */,
+				1D2BB7C49F6B85365D24AFF4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sharepay;
+			productName = sharepay;
+			productReference = 55A7F4A01C735AF200882A08 /* sharepay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A7F4BB1C735AF200882A08 /* sharepayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A7F4D31C735AF200882A08 /* Build configuration list for PBXNativeTarget "sharepayTests" */;
+			buildPhases = (
+				55A7F4B81C735AF200882A08 /* Sources */,
+				55A7F4B91C735AF200882A08 /* Frameworks */,
+				55A7F4BA1C735AF200882A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A7F4BE1C735AF200882A08 /* PBXTargetDependency */,
+			);
+			name = sharepayTests;
+			productName = sharepayTests;
+			productReference = 55A7F4BC1C735AF200882A08 /* sharepayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55A7F4C61C735AF200882A08 /* sharepayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A7F4D61C735AF200882A08 /* Build configuration list for PBXNativeTarget "sharepayUITests" */;
+			buildPhases = (
+				55A7F4C31C735AF200882A08 /* Sources */,
+				55A7F4C41C735AF200882A08 /* Frameworks */,
+				55A7F4C51C735AF200882A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A7F4C91C735AF200882A08 /* PBXTargetDependency */,
+			);
+			name = sharepayUITests;
+			productName = sharepayUITests;
+			productReference = 55A7F4C71C735AF200882A08 /* sharepayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A7F4981C735AF100882A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "中村太郎";
+				TargetAttributes = {
+					55A7F49F1C735AF100882A08 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					55A7F4BB1C735AF200882A08 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 55A7F49F1C735AF100882A08;
+					};
+					55A7F4C61C735AF200882A08 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 55A7F49F1C735AF100882A08;
+					};
+				};
+			};
+			buildConfigurationList = 55A7F49B1C735AF100882A08 /* Build configuration list for PBXProject "sharepay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A7F4971C735AF100882A08;
+			productRefGroup = 55A7F4A11C735AF200882A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A7F49F1C735AF100882A08 /* sharepay */,
+				55A7F4BB1C735AF200882A08 /* sharepayTests */,
+				55A7F4C61C735AF200882A08 /* sharepayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A7F49E1C735AF100882A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7F4B61C735AF200882A08 /* LaunchScreen.storyboard in Resources */,
+				55A7F4B31C735AF200882A08 /* Assets.xcassets in Resources */,
+				55A7F4AE1C735AF200882A08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F4BA1C735AF200882A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F4C51C735AF200882A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D2BB7C49F6B85365D24AFF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE4DED321C64C78E3CCA39A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1AA31730CC776EB2B457DC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A7F49C1C735AF100882A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7F4AB1C735AF200882A08 /* ViewController.m in Sources */,
+				55A7F4A81C735AF200882A08 /* AppDelegate.m in Sources */,
+				55A7F4B11C735AF200882A08 /* sharepay.xcdatamodeld in Sources */,
+				55A7F4A51C735AF200882A08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F4B81C735AF200882A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7F4C11C735AF200882A08 /* sharepayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F4C31C735AF200882A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7F4CC1C735AF200882A08 /* sharepayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A7F4BE1C735AF200882A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A7F49F1C735AF100882A08 /* sharepay */;
+			targetProxy = 55A7F4BD1C735AF200882A08 /* PBXContainerItemProxy */;
+		};
+		55A7F4C91C735AF200882A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A7F49F1C735AF100882A08 /* sharepay */;
+			targetProxy = 55A7F4C81C735AF200882A08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A7F4AC1C735AF200882A08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A7F4AD1C735AF200882A08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A7F4B41C735AF200882A08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A7F4B51C735AF200882A08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A7F4CE1C735AF200882A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55A7F4CF1C735AF200882A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A7F4D11C735AF200882A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CD4313D16D673B2CDDD8CD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sharepay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeworks.sharepay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55A7F4D21C735AF200882A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBF0BB29B48FA92B9A39E7D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sharepay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeworks.sharepay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55A7F4D41C735AF200882A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sharepayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeworks.sharepayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sharepay.app/sharepay";
+			};
+			name = Debug;
+		};
+		55A7F4D51C735AF200882A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sharepayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeworks.sharepayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sharepay.app/sharepay";
+			};
+			name = Release;
+		};
+		55A7F4D71C735AF200882A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sharepayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeworks.sharepayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sharepay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		55A7F4D81C735AF200882A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sharepayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeworks.sharepayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sharepay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A7F49B1C735AF100882A08 /* Build configuration list for PBXProject "sharepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A7F4CE1C735AF200882A08 /* Debug */,
+				55A7F4CF1C735AF200882A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A7F4D01C735AF200882A08 /* Build configuration list for PBXNativeTarget "sharepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A7F4D11C735AF200882A08 /* Debug */,
+				55A7F4D21C735AF200882A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A7F4D31C735AF200882A08 /* Build configuration list for PBXNativeTarget "sharepayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A7F4D41C735AF200882A08 /* Debug */,
+				55A7F4D51C735AF200882A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A7F4D61C735AF200882A08 /* Build configuration list for PBXNativeTarget "sharepayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A7F4D71C735AF200882A08 /* Debug */,
+				55A7F4D81C735AF200882A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55A7F4AF1C735AF200882A08 /* sharepay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55A7F4B01C735AF200882A08 /* sharepay.xcdatamodel */,
+			);
+			currentVersion = 55A7F4B01C735AF200882A08 /* sharepay.xcdatamodel */;
+			path = sharepay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55A7F4981C735AF100882A08 /* Project object */;
+}
